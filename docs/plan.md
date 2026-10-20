@@ -180,7 +180,7 @@ The biggest risk is mechanical, not electronic: a pad whose load leaks around th
 - [x] Order the phase 1a parts (cells, spare HX711s, ESP32s, temperature probes)
 - [ ] Order the phase 1b additions (second cell kit, SparkFun HX711 + combinator, plates, cable)
 - [ ] Cut plates and print the four cell mounts
-- [ ] Wire the bridge, get raw counts on serial
+- [x] Wire the bridge, get raw counts on serial ([desk test](desk-test.md))
 - [ ] Add tare and two-point calibration; check with one known weight
 - [ ] Build the CSV logger and run the test protocol
 - [ ] Fix mechanical issues until off-center and repeatability pass

@@ -11,3 +11,13 @@
 You get kg and temperature over time per channel, and the residuals from the last `cal fit` in the log. Drag across a chart to zoom; the stats table (mean, std dev, spread, drift) follows the zoomed range. Zoom into an empty-pad stretch to read zero noise, or a held load to read creep.
 
 Nothing leaves your machine. [uPlot](https://github.com/leeoniya/uPlot) 1.6.32 (MIT) is vendored in `vendor/uplot/`.
+
+## Press test
+
+Asks you to press each cell in turn (UL, UR, LL, LR) and prints the range of raw counts while you hold it. It starts and ends with a hands-off step, for comparison and to show the reading comes back.
+
+```sh
+python3 tools/press-test.py
+```
+
+Close any serial monitor first. Python 3 standard library only (macOS, Linux).

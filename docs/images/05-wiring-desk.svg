@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" role="img" aria-label="First desk test wiring">
+<rect width="1000" height="600" fill="#ffffff"/>
+<text x="24" y="28" font-size="15" fill="#1f1f1c" text-anchor="start" font-weight="600">First desk test: no jacks, no cable</text>
+<text x="24" y="48" font-size="11.5" fill="#5f5e57" text-anchor="start">Everything on the desk, soldered with short wires. Goal: press a cell and watch the numbers change.</text>
+<rect x="24" y="110" width="120" height="36" rx="8" fill="#ffffff" stroke="#9b998f" stroke-width="1.25"/>
+<text x="36" y="133" font-size="12" fill="#1f1f1c" text-anchor="start" font-weight="600">Cell UL</text>
+<text x="132" y="133" font-size="10.5" fill="#5f5e57" text-anchor="end">3 wires</text>
+<rect x="24" y="156" width="120" height="36" rx="8" fill="#ffffff" stroke="#9b998f" stroke-width="1.25"/>
+<text x="36" y="179" font-size="12" fill="#1f1f1c" text-anchor="start" font-weight="600">Cell UR</text>
+<text x="132" y="179" font-size="10.5" fill="#5f5e57" text-anchor="end">3 wires</text>
+<rect x="24" y="202" width="120" height="36" rx="8" fill="#ffffff" stroke="#9b998f" stroke-width="1.25"/>
+<text x="36" y="225" font-size="12" fill="#1f1f1c" text-anchor="start" font-weight="600">Cell LL</text>
+<text x="132" y="225" font-size="10.5" fill="#5f5e57" text-anchor="end">3 wires</text>
+<rect x="24" y="248" width="120" height="36" rx="8" fill="#ffffff" stroke="#9b998f" stroke-width="1.25"/>
+<text x="36" y="271" font-size="12" fill="#1f1f1c" text-anchor="start" font-weight="600">Cell LR</text>
+<text x="132" y="271" font-size="10.5" fill="#5f5e57" text-anchor="end">3 wires</text>
+<text x="84" y="96" font-size="13" fill="#1f1f1c" text-anchor="middle" font-weight="600">Load cells</text>
+<rect x="290" y="110" width="150" height="174" rx="8" fill="#ffffff" stroke="#9b998f" stroke-width="1.25"/>
+<text x="365.0" y="102" font-size="13" fill="#1f1f1c" text-anchor="middle" font-weight="600">Combinator</text>
+<path d="M 144 128 H 290" fill="none" stroke="#9b998f" stroke-width="1.5"/>
+<text x="300" y="132" font-size="11" fill="#5f5e57" text-anchor="start">UL: C + −</text>
+<path d="M 144 174 H 290" fill="none" stroke="#9b998f" stroke-width="1.5"/>
+<text x="300" y="178" font-size="11" fill="#5f5e57" text-anchor="start">UR: C + −</text>
+<path d="M 144 220 H 290" fill="none" stroke="#9b998f" stroke-width="1.5"/>
+<text x="300" y="224" font-size="11" fill="#5f5e57" text-anchor="start">LL: C + −</text>
+<path d="M 144 266 H 290" fill="none" stroke="#9b998f" stroke-width="1.5"/>
+<text x="300" y="270" font-size="11" fill="#5f5e57" text-anchor="start">LR: C + −</text>
+<circle cx="250" cy="92" r="9" fill="#1f1f1c"/>
+<text x="250" y="96" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="600">1</text>
+<rect x="540" y="110" width="130" height="150" rx="8" fill="#ffffff" stroke="#9b998f" stroke-width="1.25"/>
+<text x="605.0" y="102" font-size="13" fill="#1f1f1c" text-anchor="middle" font-weight="600">HX711 (green kit board)</text>
+<text x="550" y="274" font-size="10.5" fill="#5f5e57" text-anchor="start">B+ and B− stay empty</text>
+<text x="430" y="154" font-size="11.5" fill="#1f1f1c" text-anchor="end">RED</text>
+<path d="M 440 150 H 540" fill="none" stroke="#d0502a" stroke-width="1.75"/>
+<text x="550" y="154" font-size="11.5" fill="#1f1f1c" text-anchor="start">E+</text>
+<text x="430" y="184" font-size="11.5" fill="#1f1f1c" text-anchor="end">BLK</text>
+<path d="M 440 180 H 540" fill="none" stroke="#d0502a" stroke-width="1.75"/>
+<text x="550" y="184" font-size="11.5" fill="#1f1f1c" text-anchor="start">E−</text>
+<text x="430" y="214" font-size="11.5" fill="#1f1f1c" text-anchor="end">GRN</text>
+<path d="M 440 210 H 540" fill="none" stroke="#2e8b57" stroke-width="1.75"/>
+<text x="550" y="214" font-size="11.5" fill="#1f1f1c" text-anchor="start">A+</text>
+<text x="430" y="244" font-size="11.5" fill="#1f1f1c" text-anchor="end">WHT</text>
+<path d="M 440 240 H 540" fill="none" stroke="#2e8b57" stroke-width="1.75"/>
+<text x="550" y="244" font-size="11.5" fill="#1f1f1c" text-anchor="start">A−</text>
+<circle cx="490" cy="120" r="9" fill="#1f1f1c"/>
+<text x="490" y="124" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="600">2</text>
+<rect x="780" y="110" width="120" height="170" rx="8" fill="#ffffff" stroke="#9b998f" stroke-width="1.25"/>
+<text x="840.0" y="102" font-size="13" fill="#1f1f1c" text-anchor="middle" font-weight="600">ESP32-S3 DevKitC-1</text>
+<text x="660" y="154" font-size="11.5" fill="#1f1f1c" text-anchor="end">VCC</text>
+<path d="M 670 150 H 780" fill="none" stroke="#5f5e57" stroke-width="1.75"/>
+<text x="790" y="154" font-size="11.5" fill="#1f1f1c" text-anchor="start">3V3</text>
+<text x="660" y="187" font-size="11.5" fill="#1f1f1c" text-anchor="end">GND</text>
+<path d="M 670 183 H 780" fill="none" stroke="#5f5e57" stroke-width="1.75"/>
+<text x="790" y="187" font-size="11.5" fill="#1f1f1c" text-anchor="start">GND</text>
+<text x="660" y="220" font-size="11.5" fill="#1f1f1c" text-anchor="end">DT</text>
+<path d="M 670 216 H 780" fill="none" stroke="#2e8b57" stroke-width="1.75"/>
+<text x="790" y="220" font-size="11.5" fill="#1f1f1c" text-anchor="start">GPIO4</text>
+<text x="660" y="253" font-size="11.5" fill="#1f1f1c" text-anchor="end">SCK</text>
+<path d="M 670 249 H 780" fill="none" stroke="#2e8b57" stroke-width="1.75"/>
+<text x="790" y="253" font-size="11.5" fill="#1f1f1c" text-anchor="start">GPIO5</text>
+<circle cx="725" cy="120" r="9" fill="#1f1f1c"/>
+<text x="725" y="124" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="600">3</text>
+<path d="M 840.0 280 V 330" fill="none" stroke="#9b998f" stroke-width="1.5"/>
+<rect x="770" y="330" width="140" height="40" rx="8" fill="#ffffff" stroke="#9b998f" stroke-width="1.25"/>
+<text x="840.0" y="350" font-size="12" fill="#1f1f1c" text-anchor="middle" font-weight="600">computer</text>
+<text x="840.0" y="364" font-size="10" fill="#5f5e57" text-anchor="middle">USB-C, port marked UART</text>
+<circle cx="858.0" cy="305" r="9" fill="#1f1f1c"/>
+<text x="858.0" y="309" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="600">5</text>
+<text x="24" y="410" font-size="13" fill="#1f1f1c" text-anchor="start" font-weight="600">Steps</text>
+<circle cx="34" cy="434" r="9" fill="#1f1f1c"/>
+<text x="34" y="438" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="600">1</text>
+<text x="52" y="438" font-size="11.5" fill="#1f1f1c" text-anchor="start">Each cell to its corner's pads (UL, UR, LL, LR): center wire → C, the ends → + and −. Kit cells: yellow → C, red → +, black → −.</text>
+<circle cx="34" cy="462" r="9" fill="#1f1f1c"/>
+<text x="34" y="466" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="600">2</text>
+<text x="52" y="466" font-size="11.5" fill="#1f1f1c" text-anchor="start">Solder 4 short wires (10–15 cm) from the Combinator's left column to the HX711's top row: RED → E+, BLK → E−, GRN → A+, WHT → A−. YLW stays empty.</text>
+<circle cx="34" cy="490" r="9" fill="#1f1f1c"/>
+<text x="34" y="494" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="600">3</text>
+<text x="52" y="494" font-size="11.5" fill="#1f1f1c" text-anchor="start">Solder header pins to the HX711's bottom row and connect 4 jumper wires: VCC → 3V3 (not 5V), GND → GND, DT → GPIO4, SCK → GPIO5.</text>
+<circle cx="34" cy="518" r="9" fill="#1f1f1c"/>
+<text x="34" y="522" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="600">4</text>
+<text x="52" y="522" font-size="11.5" fill="#1f1f1c" text-anchor="start">Before plugging in: with a multimeter, E+ to E− and A+ to A− should read about the same. Wire colors vary by seller; check theirs.</text>
+<circle cx="34" cy="546" r="9" fill="#1f1f1c"/>
+<text x="34" y="550" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="600">5</text>
+<text x="52" y="550" font-size="11.5" fill="#1f1f1c" text-anchor="start">Plug the ESP32-S3 into the computer, flash it (firmware/README.md), then press on a cell: the raw counts should move.</text>
+</svg>

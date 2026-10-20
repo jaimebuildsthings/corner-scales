@@ -17,7 +17,7 @@ About $115–200 in total.
 | SparkFun Load Cell Amplifier HX711 | 1 | $11 | Separate analog/logic supplies |
 | ESP32-S3-DevKitC-1 clone, N16R8 | 2–3 | $19 / 3 | Pad A and pad B |
 | DS18B20 waterproof probes | 5-pack | $10 | One per pad |
-| Shielded Cat6 cable (1–2 m) + 2 RJ45 jacks | 1 set | $10–15 | Label "NOT ETHERNET" |
+| Shielded Cat6 patch cable (1–2 m) + 2 female RJ45 breakout boards with screw terminals | 1 set | $10–15 | Label "NOT ETHERNET" |
 | ABS box ~100 × 70 × 40 mm + PG7 glands | 2 | $10–15 | |
 | Hookup wire, heat-shrink, perfboard, screw terminals | | $10 | |
 | USB power bank or 5 V supply | 1–2 | $0–30 | |
@@ -42,7 +42,7 @@ About $115–200 in total.
 | Second 8× 50 kg cell kit | 1 | $15–25 | Spares; the first kit's 8 cells all go into the 2 pads |
 | SparkFun Combinator + SparkFun HX711 | 1 each | $18 | Matches pad A |
 | 12 mm Baltic birch, 300 × 300 mm | 2 | $15–25 | |
-| Shielded Cat6 + 2 RJ45 jacks | 1 set | $10–15 | |
+| Shielded Cat6 patch cable + 2 RJ45 screw-terminal breakouts | 1 set | $10–15 | |
 | Stop hardware, locating pin, feet | | $15 | As pad A |
 | Stiff plank, ~1 m | 1 | | Lever-rule test |
 

@@ -2,10 +2,22 @@
 
 One pad: four half-bridge load cells → SparkFun Load Sensor Combinator → shielded Cat6 → SparkFun HX711 → ESP32-S3.
 
-**Contents:** [Bridge](#load-cell-bridge) · [Pad cable](#pad-cable-rj45) · [HX711 to ESP32](#hx711-to-esp32) · [Temperature probe](#temperature-probe) · [Checks](#before-power-on)
+**Contents:** [Desk test](#first-desk-test) · [Final build](#final-build) · [Bridge](#load-cell-bridge) · [Pad cable](#pad-cable-rj45) · [HX711 to ESP32](#hx711-to-esp32) · [Temperature probe](#temperature-probe) · [Checks](#before-power-on)
 
 > [!WARNING]
 > The RJ45 jacks are **not Ethernet**. A PoE switch can put up to ~57 V on the bridge. Label both ends.
+
+## First desk test
+
+Start here: everything on the desk, no jacks or cable.
+
+![First desk test wiring](images/05-wiring-desk.svg)
+
+## Final build
+
+The pad and the electronics box are separate, joined by a Cat6 patch cable. Each end has a female RJ45 breakout board with screw terminals.
+
+![Final build wiring](images/06-wiring-pad.svg)
 
 ## Load cell bridge
 

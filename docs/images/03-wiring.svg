@@ -31,7 +31,7 @@
 <text x="412" y="144" font-size="11.5" fill="#1f1f1c">A+</text>
 <text x="412" y="210" font-size="11.5" fill="#1f1f1c">E−</text>
 <text x="412" y="240" font-size="11.5" fill="#1f1f1c">A−</text>
-<text x="528" y="114" font-size="11.5" fill="#1f1f1c" text-anchor="end">VCC</text>
+<text x="528" y="114" font-size="11.5" fill="#1f1f1c" text-anchor="end">VCC · VDD</text>
 <text x="528" y="154" font-size="11.5" fill="#1f1f1c" text-anchor="end">GND</text>
 <text x="528" y="194" font-size="11.5" fill="#1f1f1c" text-anchor="end">DOUT</text>
 <text x="528" y="234" font-size="11.5" fill="#1f1f1c" text-anchor="end">SCK</text>
@@ -41,7 +41,7 @@
 <path d="M620 230H540" fill="none" stroke="#9b998f" stroke-width="1.25" marker-end="url(#w)"/>
 <rect x="620" y="80" width="116" height="180" rx="8" fill="none" stroke="#9b998f" stroke-width="1.25"/>
 <text x="678" y="72" font-size="13" font-weight="600" fill="#1f1f1c" text-anchor="middle">ESP32</text>
-<text x="632" y="114" font-size="11.5" fill="#1f1f1c">3.3 V</text>
+<text x="632" y="114" font-size="11.5" fill="#1f1f1c">5 V · 3.3 V</text>
 <text x="632" y="154" font-size="11.5" fill="#1f1f1c">GND</text>
 <text x="632" y="194" font-size="11.5" fill="#1f1f1c">GPIO (in)</text>
 <text x="632" y="234" font-size="11.5" fill="#1f1f1c">GPIO (out)</text>
